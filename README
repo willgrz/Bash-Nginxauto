@@ -1,0 +1,6 @@
+A simple NGINX conf tool (requires 1.8+)
+Coding time consumed around 2hours total, with testing :)
+Creates reverse proxy configs, static vhost configs, PHP vhost configs (via FPM, own pool per domain), MySQL users/DB
+Run with -h or peek into source for switches
+Copyleft, Edit if you want (pull would be nice) - Need to verify IP(4|6) and SSL cert still
+MySQL requires either edit or a /root/.my.cnf file with a user authorized to create DBs/Users
